@@ -1,0 +1,126 @@
+[10-Feb-2024 02:16:33 UTC] WordPress database error Table 'wphl_loginizer_logs' already exists for query CREATE TABLE `wphl_loginizer_logs` (
+				`username` varchar(255) NOT NULL DEFAULT '',
+				`time` int(10) NOT NULL DEFAULT '0',
+				`count` int(10) NOT NULL DEFAULT '0',
+				`lockout` int(10) NOT NULL DEFAULT '0',
+				`ip` varchar(255) NOT NULL DEFAULT '',
+				`url` varchar(255) NOT NULL DEFAULT '',
+				UNIQUE KEY `ip` (`ip`)
+			) DEFAULT CHARSET=utf8; made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, loginizer_load_plugin, loginizer_update_check, loginizer_activation
+[10-Feb-2024 02:16:33 UTC] WordPress database error Table 'wphl_loginizer_logs' already exists for query CREATE TABLE `wphl_loginizer_logs` (
+				`username` varchar(255) NOT NULL DEFAULT '',
+				`time` int(10) NOT NULL DEFAULT '0',
+				`count` int(10) NOT NULL DEFAULT '0',
+				`lockout` int(10) NOT NULL DEFAULT '0',
+				`ip` varchar(255) NOT NULL DEFAULT '',
+				`url` varchar(255) NOT NULL DEFAULT '',
+				UNIQUE KEY `ip` (`ip`)
+			) DEFAULT CHARSET=utf8; made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, loginizer_load_plugin, loginizer_update_check, loginizer_activation
+[10-Feb-2024 02:16:33 UTC] WordPress database error Table 'wphl_loginizer_logs' already exists for query CREATE TABLE `wphl_loginizer_logs` (
+				`username` varchar(255) NOT NULL DEFAULT '',
+				`time` int(10) NOT NULL DEFAULT '0',
+				`count` int(10) NOT NULL DEFAULT '0',
+				`lockout` int(10) NOT NULL DEFAULT '0',
+				`ip` varchar(255) NOT NULL DEFAULT '',
+				`url` varchar(255) NOT NULL DEFAULT '',
+				UNIQUE KEY `ip` (`ip`)
+			) DEFAULT CHARSET=utf8; made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, loginizer_load_plugin, loginizer_update_check, loginizer_activation
+[10-Feb-2024 02:33:15 UTC] WordPress database error Duplicate column name 'userId' for query ALTER TABLE wphl_mwai_files ADD COLUMN userId BIGINT(20) UNSIGNED NULL made by do_action_ref_array('mwai_files_cleanup'), WP_Hook->do_action, WP_Hook->apply_filters, Meow_MWAI_Modules_Files->cleanup_expired_files, Meow_MWAI_Modules_Files->check_db
+[10-Feb-2024 02:33:15 UTC] WordPress database error Duplicate column name 'purpose' for query ALTER TABLE wphl_mwai_files ADD COLUMN purpose VARCHAR(32) NULL made by do_action_ref_array('mwai_files_cleanup'), WP_Hook->do_action, WP_Hook->apply_filters, Meow_MWAI_Modules_Files->cleanup_expired_files, Meow_MWAI_Modules_Files->check_db
+[10-Feb-2024 02:33:15 UTC] WordPress database error Can't DROP COLUMN `metadata`; check that it exists for query ALTER TABLE wphl_mwai_files DROP COLUMN metadata made by do_action_ref_array('mwai_files_cleanup'), WP_Hook->do_action, WP_Hook->apply_filters, Meow_MWAI_Modules_Files->cleanup_expired_files, Meow_MWAI_Modules_Files->check_db
+[10-Feb-2024 02:40:58 UTC] PHP Warning:  Undefined array key "envId" in /home/capstxmv/public_html/wp-content/plugins/ai-engine/classes/rest.php on line 884
+[10-Feb-2024 23:39:37 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[10-Feb-2024 23:39:37 UTC] Cron reschedule event error for hook: wp_astra_theme_db_migration_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"wp_astra_theme_db_migration_cron_interval","args":[],"interval":300}
+[10-Feb-2024 23:39:37 UTC] Cron reschedule event error for hook: wp_image_process_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"wp_image_process_cron_interval","args":[],"interval":300}
+[10-Feb-2024 23:39:37 UTC] Cron reschedule event error for hook: woocommerce_geoip_updater, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"fifteendays","args":[],"interval":1296000}
+[10-Feb-2024 23:39:37 UTC] Cron reschedule event error for hook: wp_1_wc_regenerate_images_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"wp_1_wc_regenerate_images_cron_interval","args":[],"interval":300}
+[10-Feb-2024 23:40:08 UTC] Sync process for Gutenberg Blocks has started.
+[10-Feb-2024 23:40:08 UTC] CATEGORY: Storing in option ast-block-templates-categories
+[10-Feb-2024 23:40:08 UTC] BLOCK: Requests count 8
+[10-Feb-2024 23:40:08 UTC] BLOCK: Importing request 1 ..
+[10-Feb-2024 23:40:08 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=1&wireframe=yes
+[10-Feb-2024 23:40:08 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[10-Feb-2024 23:40:09 UTC] BLOCK: Completed request 1
+[10-Feb-2024 23:40:09 UTC] BLOCK: Importing request 2 ..
+[10-Feb-2024 23:40:09 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=2&wireframe=yes
+[10-Feb-2024 23:40:09 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[10-Feb-2024 23:40:10 UTC] BLOCK: Completed request 2
+[10-Feb-2024 23:40:10 UTC] BLOCK: Importing request 3 ..
+[10-Feb-2024 23:40:10 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=3&wireframe=yes
+[10-Feb-2024 23:40:11 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[10-Feb-2024 23:40:11 UTC] BLOCK: Completed request 3
+[10-Feb-2024 23:40:11 UTC] BLOCK: Importing request 4 ..
+[10-Feb-2024 23:40:11 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=4&wireframe=yes
+[10-Feb-2024 23:40:12 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[10-Feb-2024 23:40:12 UTC] BLOCK: Completed request 4
+[10-Feb-2024 23:40:12 UTC] BLOCK: Importing request 5 ..
+[10-Feb-2024 23:40:12 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=5&wireframe=yes
+[10-Feb-2024 23:40:12 UTC] BLOCK: Storing in option ast-block-templates-blocks-5
+[10-Feb-2024 23:40:12 UTC] BLOCK: Completed request 5
+[10-Feb-2024 23:40:12 UTC] BLOCK: Importing request 6 ..
+[10-Feb-2024 23:40:12 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=6&wireframe=yes
+[10-Feb-2024 23:40:13 UTC] BLOCK: Storing in option ast-block-templates-blocks-6
+[10-Feb-2024 23:40:13 UTC] BLOCK: Completed request 6
+[10-Feb-2024 23:40:13 UTC] BLOCK: Importing request 7 ..
+[10-Feb-2024 23:40:13 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=7&wireframe=yes
+[10-Feb-2024 23:40:14 UTC] BLOCK: Storing in option ast-block-templates-blocks-7
+[10-Feb-2024 23:40:14 UTC] BLOCK: Completed request 7
+[10-Feb-2024 23:40:14 UTC] BLOCK: Importing request 8 ..
+[10-Feb-2024 23:40:14 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/blocks/?page_builder=gutenberg&per_page=30&page=8&wireframe=yes
+[10-Feb-2024 23:40:14 UTC] BLOCK: Storing in option ast-block-templates-blocks-8
+[10-Feb-2024 23:40:14 UTC] BLOCK: Completed request 8
+[10-Feb-2024 23:40:14 UTC] SITE: Getting Total Sites
+[10-Feb-2024 23:40:14 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg&per_page=30
+[10-Feb-2024 23:40:15 UTC] SITE: Request count 8
+[10-Feb-2024 23:40:15 UTC] SITE: Importing request 1 ..
+[10-Feb-2024 23:40:15 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=1&page-builder=gutenberg
+[10-Feb-2024 23:40:15 UTC] SITE: Storing in option ast-block-templates-sites-1
+[10-Feb-2024 23:40:15 UTC] SITE: Completed request 1
+[10-Feb-2024 23:40:15 UTC] SITE: Importing request 2 ..
+[10-Feb-2024 23:40:15 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=2&page-builder=gutenberg
+[10-Feb-2024 23:40:16 UTC] SITE: Storing in option ast-block-templates-sites-2
+[10-Feb-2024 23:40:16 UTC] SITE: Completed request 2
+[10-Feb-2024 23:40:16 UTC] SITE: Importing request 3 ..
+[10-Feb-2024 23:40:16 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=3&page-builder=gutenberg
+[10-Feb-2024 23:40:16 UTC] SITE: Storing in option ast-block-templates-sites-3
+[10-Feb-2024 23:40:16 UTC] SITE: Completed request 3
+[10-Feb-2024 23:40:16 UTC] SITE: Importing request 4 ..
+[10-Feb-2024 23:40:16 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=4&page-builder=gutenberg
+[10-Feb-2024 23:40:16 UTC] SITE: Storing in option ast-block-templates-sites-4
+[10-Feb-2024 23:40:16 UTC] SITE: Completed request 4
+[10-Feb-2024 23:40:16 UTC] SITE: Importing request 5 ..
+[10-Feb-2024 23:40:16 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=5&page-builder=gutenberg
+[10-Feb-2024 23:40:17 UTC] SITE: Storing in option ast-block-templates-sites-5
+[10-Feb-2024 23:40:17 UTC] SITE: Completed request 5
+[10-Feb-2024 23:40:17 UTC] SITE: Importing request 6 ..
+[10-Feb-2024 23:40:17 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=6&page-builder=gutenberg
+[10-Feb-2024 23:40:17 UTC] SITE: Storing in option ast-block-templates-sites-6
+[10-Feb-2024 23:40:17 UTC] SITE: Completed request 6
+[10-Feb-2024 23:40:17 UTC] SITE: Importing request 7 ..
+[10-Feb-2024 23:40:17 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=7&page-builder=gutenberg
+[10-Feb-2024 23:40:17 UTC] SITE: Storing in option ast-block-templates-sites-7
+[10-Feb-2024 23:40:17 UTC] SITE: Completed request 7
+[10-Feb-2024 23:40:17 UTC] SITE: Importing request 8 ..
+[10-Feb-2024 23:40:17 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=30&page=8&page-builder=gutenberg
+[10-Feb-2024 23:40:18 UTC] SITE: Storing in option ast-block-templates-sites-8
+[10-Feb-2024 23:40:18 UTC] SITE: Completed request 8
+[10-Feb-2024 23:40:18 UTC] Sync process for Gutenberg Blocks is done.
+[10-Feb-2024 23:40:18 UTC] BLOCK: Getting Server Custimizer CSS
+[10-Feb-2024 23:40:18 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v2/get-customizer-css
+[11-Feb-2024 04:26:34 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 191
+[11-Feb-2024 04:48:23 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 191
+[11-Feb-2024 05:00:12 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 191
+[11-Feb-2024 05:00:12 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 191
+[11-Feb-2024 05:03:03 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 191
+[11-Feb-2024 05:03:15 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 191
+[11-Feb-2024 05:03:16 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 191
+[11-Feb-2024 05:06:43 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 191
+[11-Feb-2024 05:49:29 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 206
+[11-Feb-2024 06:08:04 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 206
+[11-Feb-2024 06:08:12 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 206
+[11-Feb-2024 06:30:56 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 206
+[11-Feb-2024 06:54:55 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 206
+[11-Feb-2024 07:01:22 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 239
+[11-Feb-2024 07:15:37 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 239
+[11-Feb-2024 07:18:05 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 239
+[11-Feb-2024 07:31:02 UTC] PHP Warning:  Undefined variable $error_message in /home/capstxmv/public_html/wp-content/plugins/user-vitamin-recommendation/user-vitamin-recommendation.php on line 239
